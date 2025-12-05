@@ -17,7 +17,7 @@ This project provides a simple, interactive web-based chatbot interface designed
 ## Project Structure
 
 ```
-├── interface.html    # Main HTML structure and chat interface
+├── index.html        # Main HTML structure and chat interface
 ├── function.js       # JavaScript logic for chat functionality
 ├── style.css         # Custom CSS styling
 ├── replies.json      # JSON file containing assistant responses
@@ -68,7 +68,7 @@ git clone https://github.com/thatladtemod/FUTMINNA-HELPDESK.git
 cd FUTMINNA-HELPDESK
 ```
 
-2. Open `interface.html` in your web browser or use a local server:
+2. Open `index.html` in your web browser or use a local server:
 
 ```bash
 # Using Python 3

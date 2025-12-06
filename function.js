@@ -23,21 +23,26 @@ const user = () => {
           </div>`;
     newmessage.className = "flex w-full justify-end";
     chat.appendChild(newmessage);
+    chat.scrollTop = chat.scrollHeight
     setTimeout(async () => {
         await assistant();
     }, 2000)
     userInput.value = ""
 }
 
-sendBtn.addEventListener("click", user)
+sendBtn.addEventListener("click", () => {
+    if (userInput.value.trim() !== "") {
+        user()
+    }
+})
 
 const assistant = async () => {
 
     // store the value of newmessage in another variable 
-    userText = newmessage
+    userText = newmessage.textContent.trim()
 
     try {
-        if (userText) {
+        if (userText !== "") {
             const something = await fetch("replies.json");
             const response = await something.json();
 
@@ -63,6 +68,7 @@ const assistant = async () => {
            `;
             newbotmessage.className = "flex w-full"
             chat.appendChild(newbotmessage)
+            chat.scrollTop = chat.scrollHeight
         }
     } catch (error) {
         console.log(error)

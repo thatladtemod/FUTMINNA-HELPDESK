@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>FUTMINNA HELPDESK</title>
   </head>
@@ -17,20 +24,23 @@
         <div
           class="h-10 w-10 rounded-full bg-purple-400 flex justify-center items-center"
         >
-          AI
+          <i class="fa-solid fa-robot text-xl"></i>
         </div>
         <div class="flex flex-col justify-center">
           <p class="font-bold">FUTMinna Helpdesk</p>
           <p class="text-sm">Always here to help</p>
         </div>
       </div>
-      <div id="chat-field" class="p-4 flex flex-col gap-3 min-h-32 max-h-72 overflow-y-auto">
+      <div
+        id="chat-field"
+        class="p-4 flex flex-col gap-3 min-h-32 max-h-72 overflow-y-auto"
+      >
         <div class="flex w-full">
           <div class="flex self-start gap-2 w-2/3">
             <div
               class="h-8 w-8 rounded-full p-2 bg-purple-600 flex justify-center items-center"
             >
-              AI
+              <i class="fa-solid fa-robot"></i>
             </div>
             <div
               id="assistant-message"
@@ -51,9 +61,9 @@
         />
         <button
           id="send-btn"
-          class="bg-purple-500 font-medium px-3 rounded-md cursor-pointer"
+          class="bg-purple-500 font-medium px-3 rounded-md cursor-pointer "
         >
-          send
+          <i class="fa-solid fa-paper-plane"></i>
         </button>
       </div>
     </div>

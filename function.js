@@ -4,7 +4,7 @@ const userInput = document.getElementById("user-input");
 const sendBtn = document.getElementById("send-btn");
 const chat = document.querySelector("#chat-field");
 let newmessage;
-let newbotmessage
+let newbotmessage;
 let typing;
 
 const user = () => {
@@ -27,7 +27,7 @@ const user = () => {
   chat.appendChild(newmessage);
   chat.scrollTop = chat.scrollHeight;
 
-  assistant()
+  assistant();
 
   userInput.value = "";
 };
@@ -49,10 +49,10 @@ const assistant = async () => {
 
       // Display message on console
       console.log(response.message);
-      
+
       // Display message on screen
       newbotmessage = document.createElement("div");
-      
+
       newbotmessage.innerHTML = `
             <div class="flex self-start gap-2 w-2/3">
                 <div
@@ -68,6 +68,10 @@ const assistant = async () => {
                 </div>
            </div>
            `;
+
+      newbotmessage.className = "flex w-full";
+      chat.appendChild(newbotmessage);
+      chat.scrollTop = chat.scrollHeight;
 
       setTimeout(() => {
         newbotmessage.innerHTML = `
@@ -85,10 +89,8 @@ const assistant = async () => {
                 </div>
            </div>
            `;
+        chat.scrollTop = chat.scrollHeight;
       }, 2000);
-      newbotmessage.className = "flex w-full";
-      chat.appendChild(newbotmessage);
-      chat.scrollTop = chat.scrollHeight;
     }
   } catch (error) {
     console.log(error);

@@ -210,12 +210,20 @@
       "question": "What makes FUTMINNA unique?",
       "answer": "FUTMINNA is unique as one of Nigeria's three federal universities of technology, focusing on innovative technology education and 21st-century industry-ready graduates. It's a Centre of Excellence in Biotechnology and has strong research capacity in engineering innovation, with partnerships including the Nigerian Armed Forces for small arms development.",
       "keywords": ["unique", "special", "distinction", "why choose"]
+    },
+    {
+      "id": 31,
+      "category": "Greetings",
+      "question": "Hello",
+      "answer": "Hello there! I am your helpdesk assistant. How can I help you?",
+      "keywords": ["wagwan", "hey", "hello", "hi"]
     }
-  ],
+],
   "metadata": {
-    "total_faqs": 30,
-    "last_updated": "2025-12-10",
+    "total_faqs": 31,
+    "last_updated": "2025-12-11",
     "categories": [
+      "Greetings",
       "General Information",
       "Academics",
       "Admission",

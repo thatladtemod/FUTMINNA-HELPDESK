@@ -41,6 +41,7 @@ sendBtn.addEventListener("click", () => {
 const assistant = async () => {
   // store the value of newmessage in another variable and split into an array
   userText = newmessage.textContent.trim().split(" ");
+  userText = userText.map(word => word.toLowerCase())
   console.log(userText)
 
   try {

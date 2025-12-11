@@ -18,7 +18,7 @@ const user = () => {
             </div>
             <div
                 id="user-message"
-                class="text-sm text-purple-600 leading-5 border-purple-100 shadow-md rounded-md p-2 font-semibold"
+                class="text-sm text-purple-600 leading-5 border-purple-100 shadow-md rounded-md p-2 font-semibold break-all"
                 >
                 ${userInput.value}
             </div>

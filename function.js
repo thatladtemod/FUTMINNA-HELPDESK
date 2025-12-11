@@ -18,7 +18,7 @@ const user = () => {
             </div>
             <div
                 id="user-message"
-                class="text-sm text-purple-600 leading-5 border-purple-100 shadow-md rounded-md p-2 font-semibold break-all"
+                class="text-sm text-purple-600 leading-5 border-purple-100 shadow-md rounded-md p-2 font-semibold wrap-break-word"
                 >
                 ${userInput.value}
             </div>
@@ -52,11 +52,13 @@ const assistant = async () => {
     let foundAnswer
     
     // matching up keywords
+    outerLoop:
     for (text of userText) {
       for (object of response.faqs) {
         if (object.keywords.includes(text)) {
           console.log(object.answer);
           foundAnswer = object.answer
+          break outerLoop
         }
       }
     }

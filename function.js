@@ -39,18 +39,28 @@ sendBtn.addEventListener("click", () => {
 });
 
 const assistant = async () => {
-  // store the value of newmessage in another variable
-  userText = newmessage.textContent.trim();
+  // store the value of newmessage in another variable and split into an array
+  userText = newmessage.textContent.trim().split(" ");
+  console.log(userText)
 
   try {
-    if (userText !== "") {
-      const something = await fetch("replies.json");
-      const response = await something.json();
+    // fetch json file for responses
+    const something = await fetch("replies.json")
+    const response = await something.json()
+    console.log(response.faqs)
 
-      // Display message on console
-      console.log(response.message);
-
-      // Display message on screen
+    let foundAnswer
+    
+    // matching up keywords
+    for (text of userText) {
+      for (object of response.faqs) {
+        if (object.keywords.includes(text)) {
+          console.log(object.answer);
+          foundAnswer = object.answer
+        }
+      }
+    }
+    // Display message on screen
       newbotmessage = document.createElement("div");
 
       newbotmessage.innerHTML = `
@@ -73,8 +83,9 @@ const assistant = async () => {
       chat.appendChild(newbotmessage);
       chat.scrollTop = chat.scrollHeight;
 
-      setTimeout(() => {
-        newbotmessage.innerHTML = `
+      if (!foundAnswer) {
+        setTimeout(() => {
+          newbotmessage.innerHTML = `
             <div class="flex self-start gap-2 w-2/3">
                 <div
                     class="h-8 w-8 rounded-full p-2 bg-purple-600 flex justify-center items-center"
@@ -85,14 +96,33 @@ const assistant = async () => {
                     id="assistant-message"
                     class="text-sm text-gray-800 leading-5 border-purple-100 shadow-md rounded-md p-2 font-semibold"
                 >
-                ${response.message}
+                Sorry, I could not find a reply for this.
                 </div>
            </div>
            `;
-        chat.scrollTop = chat.scrollHeight;
-      }, 2000);
-    }
-  } catch (error) {
+          chat.scrollTop = chat.scrollHeight;
+        }, 2000);
+      } else {
+        setTimeout(() => {
+          newbotmessage.innerHTML = `
+            <div class="flex self-start gap-2 w-2/3">
+                <div
+                    class="h-8 w-8 rounded-full p-2 bg-purple-600 flex justify-center items-center"
+                >
+                    <i class="fa-solid fa-robot"></i>
+                </div>
+                <div
+                    id="assistant-message"
+                    class="text-sm text-gray-800 leading-5 border-purple-100 shadow-md rounded-md p-2 font-semibold"
+                >
+                ${object.answer}
+                </div>
+           </div>
+           `;
+          chat.scrollTop = chat.scrollHeight;
+        }, 2000);
+      }
+    }  catch (error) {
     console.log(error);
   }
 };

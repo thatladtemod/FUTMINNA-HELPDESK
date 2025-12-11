@@ -1,4 +1,235 @@
 {
-    "id": 1,
-    "message": "Thanks for your message! I am a prototype, so I cannot provide any real responses yet. So, I would probably just annoy you with this message if you keep trying."
+  "university": "Federal University of Technology, Minna (FUTMINNA)",
+  "faqs": [
+    {
+      "id": 1,
+      "category": "General Information",
+      "question": "What is FUTMINNA?",
+      "answer": "FUTMINNA (Federal University of Technology, Minna) is a federal government-owned university located in Minna, Niger State, Nigeria. It was established on February 1, 1983, and specializes in technological education, offering bachelor's, master's, and doctorate degrees in various technology-related fields.",
+      "keywords": ["history", "establishment", "overview"]
+    },
+    {
+      "id": 2,
+      "category": "General Information",
+      "question": "Where is FUTMINNA located?",
+      "answer": "FUTMINNA has two campuses: the Bosso Campus (original site) and the main Gidan Kwano Campus, which is situated on 10,650 hectares of land along the Minna-Kataeregi-Bida Road in Minna, Niger State, Nigeria.",
+      "keywords": ["location", "campus", "address", "where"]
+    },
+    {
+      "id": 3,
+      "category": "General Information",
+      "question": "What is FUTMINNA's vision and mission?",
+      "answer": "Vision: To become a world-class and Nigeria's leading university recognized for excellence in capacity building and service delivery. Mission: To train skilled and innovative workforce that would transform Nigeria's natural resources into goods and services driven by entrepreneurship and ICT, positively affecting the economy and quality of life.",
+      "keywords": ["vision", "mission", "goals", "objectives"]
+    },
+    {
+      "id": 4,
+      "category": "General Information",
+      "question": "How many students attend FUTMINNA?",
+      "answer": "FUTMINNA has an enrollment of over 20,000 students, making it a large-sized educational institution according to international rankings.",
+      "keywords": ["students", "enrollment", "population", "size"]
+    },
+    {
+      "id": 5,
+      "category": "Academics",
+      "question": "What schools/faculties does FUTMINNA have?",
+      "answer": "FUTMINNA has several schools including: School of Agriculture and Agricultural Technology, School of Infrastructure Process Engineering and Technology, School of Innovation Technology, School of Environmental Technology, School of Life Sciences, School of Physical Sciences, School of Engineering and Engineering Technology, School of Science and Technical Education, and School of Information and Communications Technology.",
+      "keywords": ["schools", "faculties", "colleges"]
+    },
+    {
+      "id": 6,
+      "category": "Academics",
+      "question": "What courses does FUTMINNA offer?",
+      "answer": "FUTMINNA offers a wide range of undergraduate and postgraduate programs in technology-related fields including Engineering, Computer Science, Agricultural Technology, Environmental Technology, Life Sciences, Physical Sciences, and Information Technology. The university is designated as a Centre of Excellence in Biotechnology and Genetic Engineering.",
+      "keywords": ["courses", "programs", "majors", "degrees", "study"]
+    },
+    {
+      "id": 7,
+      "category": "Academics",
+      "question": "Does FUTMINNA offer distance learning?",
+      "answer": "Yes, FUTMINNA has a Centre for Distance Learning and e-Informatics which was launched in October 2020 to provide distance and online learning opportunities.",
+      "keywords": ["distance learning", "online", "e-learning", "remote"]
+    },
+    {
+      "id": 8,
+      "category": "Admission",
+      "question": "What is FUTMINNA's admission acceptance rate?",
+      "answer": "FUTMINNA has a moderately selective admission policy with an acceptance rate range of 70-79%. Admission is based on entrance examinations (JAMB and Post-UTME) and students' past academic records and grades.",
+      "keywords": ["selective", "competitive"]
+    },
+    {
+      "id": 9,
+      "category": "Admission",
+      "question": "How do I apply for admission to FUTMINNA?",
+      "answer": "Prospective students must first take the JAMB UTME examination and meet the university's cut-off marks. After JAMB, candidates must participate in FUTMINNA's Post-UTME/DE screening exercise. Direct Entry candidates can also apply using their appropriate qualifications. Applications are submitted through the university's online portal.",
+      "keywords": ["apply", "application", "how to apply", "process"]
+    },
+    {
+      "id": 10,
+      "category": "Admission",
+      "question": "What is the FUTMINNA acceptance fee?",
+      "answer": "The acceptance fee for newly admitted students at FUTMINNA is ₦20,000 for all schools, applicable to both Nigerian and foreign students. This fee must be paid to secure your admission slot.",
+      "keywords": ["acceptance", "admission", "payment"]
+    },
+    {
+      "id": 11,
+      "category": "Admission",
+      "question": "How do I check my FUTMINNA admission status?",
+      "answer": "You can check your admission status by visiting the FUTMINNA admission portal at eportal.futminna.edu.ng and clicking on the current session's admission status link. You'll need your JAMB registration number to check your status.",
+      "keywords": ["admission status", "check admission", "admission list"]
+    },
+    {
+      "id": 12,
+      "category": "Fees and Payments",
+      "question": "How much is FUTMINNA school fees?",
+      "answer": "The current school fees for FUTMINNA is approximately ₦1,200 for new students and ₦28,200 for returning students. However, fees may vary by department and program. Students should check the official website or ePortal for department-specific fees.",
+      "keywords": ["school fees", "tuition", "fees", "cost"]
+    },
+    {
+      "id": 13,
+      "category": "Fees and Payments",
+      "question": "How do I pay my FUTMINNA school fees?",
+      "answer": "School fees are paid through the FUTMINNA ePortal at eportal.futminna.edu.ng. Students log in with their credentials, generate a payment invoice, and make payment through the designated bank or online payment platform. Late payment attracts penalties.",
+      "keywords": ["pay fees", "payment portal", "how to pay", "eportal"]
+    },
+    {
+      "id": 14,
+      "category": "Fees and Payments",
+      "question": "Are there additional fees apart from school fees?",
+      "answer": "Yes, additional fees may include field trip charges (₦5,000 for most departments, ₦10,000 for Geology, Biological Sciences, Surveying and Geoinformatics departments), hostel accommodation fees (handled separately by managers), and other departmental charges.",
+      "keywords": ["additional fees", "extra charges", "other fees", "departmental"]
+    },
+    {
+      "id": 15,
+      "category": "Student Life",
+      "question": "What facilities are available on campus?",
+      "answer": "FUTMINNA has extensive facilities including a floodlit sports arena, athletics tracks, badminton courts, basketball courts, table tennis facilities, volleyball courts, football pitches, a fitness gymnasium, a 9-hole golf course, student recreation centre, library, housing/hostels, and the student-run Search FM 92.3 campus radio station.",
+      "keywords": ["facilities", "amenities", "campus life", "sports"]
+    },
+    {
+      "id": 16,
+      "category": "Student Life",
+      "question": "Does FUTMINNA have a radio station?",
+      "answer": "Yes, FUTMINNA has a student-run radio station called Search FM 92.3. It started official transmission in August 2010 and was recommissioned in 2014 with a new building and fully equipped studio after a fire incident in 2013.",
+      "keywords": ["radio", "Search FM", "campus radio", "media", "station"]
+    },
+    {
+      "id": 17,
+      "category": "Student Life",
+      "question": "Is accommodation available on campus?",
+      "answer": "Yes, FUTMINNA provides hostel accommodation on both campuses. Hostel accommodation is handled by managers, and hostel services charges are arranged separately from regular school fees.",
+      "keywords": ["accommodation", "hostel", "housing", "residence"]
+    },
+    {
+      "id": 18,
+      "category": "Registration",
+      "question": "How do I register as a new student?",
+      "answer": "After admission, check your admission status to get your Student ID, request a new password on the ePortal, access your university email (password is your JAMB number), retrieve your ePortal password from email, log in to ePortal, pay acceptance fee, complete your profile, upload O'Level results and documents, wait for clearance approval (up to 24 hours), then pay registration fee.",
+      "keywords": ["registration", "new", "register", "enrollment"]
+    },
+    {
+      "id": 19,
+      "category": "Registration",
+      "question": "What is my FUTMINNA email address?",
+      "answer": "Upon admission, FUTMINNA creates an institutional email address for you. You can find your email address by requesting a new password on the ePortal with your Student ID. The email follows the university's format and can be accessed through Gmail. Your initial password is your JAMB registration number.",
+      "keywords": ["email", "student email", "university email"]
+    },
+    {
+      "id": 20,
+      "category": "Registration",
+      "question": "How long does clearance take?",
+      "answer": "After submitting your O'Level results and required documents through the ePortal's Academic Records section, the clearance officer typically reviews submissions within 24 hours. Once cleared, you can proceed to pay your registration fee.",
+      "keywords": ["clearance", "document verification", "approval"]
+    },
+    {
+      "id": 21,
+      "category": "Research and Innovation",
+      "question": "What research activities is FUTMINNA known for?",
+      "answer": "FUTMINNA is designated as a Centre of Excellence in Biotechnology and Genetic Engineering with core competence in vaccine and drug development. The university also has expertise in small arms design in partnership with Nigerian Armed Forces. The Advanced Engineering Innovation Research Group (AEIRG) develops products like low-cost PV lighting systems and mobile energy boxes.",
+      "keywords": ["research", "innovation", "biotechnology", "excellence"]
+    },
+    {
+      "id": 22,
+      "category": "Research and Innovation",
+      "question": "Does FUTMINNA publish academic journals?",
+      "answer": "Yes, FUTMINNA has published the Nigeria Journal of Technical Research since 1995 and operates the Academic Publishing Centre for universities in north-central Nigeria.",
+      "keywords": ["journals", "publications", "academic", "publishing"]
+    },
+    {
+      "id": 23,
+      "category": "International Students",
+      "question": "Can international students apply to FUTMINNA?",
+      "answer": "Yes, international applicants are eligible to apply for enrollment at FUTMINNA. Foreign students pay the same acceptance fee (₦20,000) as Nigerian students but should check for any additional requirements or fees specific to international students.",
+      "keywords": ["international", "foreign", "overseas"]
+    },
+    {
+      "id": 24,
+      "category": "Programs",
+      "question": "Does FUTMINNA offer postgraduate programs?",
+      "answer": "Yes, FUTMINNA offers master's degrees and doctorate degrees in various technology-related fields across its schools. Postgraduate students have separate fee structures and admission requirements.",
+      "keywords": ["postgraduate", "masters", "doctorate", "PhD", "graduate school"]
+    },
+    {
+      "id": 25,
+      "category": "Contact",
+      "question": "What is FUTMINNA's official website?",
+      "answer": "FUTMINNA's official website is https://futminna.edu.ng. The student ePortal is accessible at https://eportal.futminna.edu.ng",
+      "keywords": ["website", "portal", "online", "url"]
+    },
+    {
+      "id": 26,
+      "category": "Contact",
+      "question": "What is FUTMINNA's postal address?",
+      "answer": "Federal University of Technology, Minna, P.M.B 65, Gidan-Kwanu, Minna-Bida Road, Niger State, Nigeria.",
+      "keywords": ["address", "postal", "mail", "location"]
+    },
+    {
+      "id": 27,
+      "category": "Rankings",
+      "question": "How is FUTMINNA ranked?",
+      "answer": "FUTMINNA is recognized nationally and internationally as one of Nigeria's top universities of technology. It ranks in the 83rd overall percentile, 79th research percentile, 76th innovation percentile, and 65th societal percentile according to scientific performance rankings.",
+      "keywords": ["ranking", "ratings", "reputation", "standing"]
+    },
+    {
+      "id": 28,
+      "category": "General Information",
+      "question": "Who was the first Vice-Chancellor of FUTMINNA?",
+      "answer": "Professor J.O. Ndagi was the pioneer Vice-Chancellor of FUTMINNA, serving from 1983 to 1990.",
+      "keywords": ["vice", "chancellor", "leadership", "administration", "history", "vc"]
+    },
+    {
+      "id": 29,
+      "category": "Security",
+      "question": "Is FUTMINNA campus safe?",
+      "answer": "Yes, security of lives and properties is given top priority at FUTMINNA. The university has trained and experienced security personnel to ensure a safe learning environment for all students and staff.",
+      "keywords": ["security", "safety", "campus security", "safe"]
+    },
+    {
+      "id": 30,
+      "category": "Academics",
+      "question": "What makes FUTMINNA unique?",
+      "answer": "FUTMINNA is unique as one of Nigeria's three federal universities of technology, focusing on innovative technology education and 21st-century industry-ready graduates. It's a Centre of Excellence in Biotechnology and has strong research capacity in engineering innovation, with partnerships including the Nigerian Armed Forces for small arms development.",
+      "keywords": ["unique", "special", "distinction", "why choose"]
+    }
+  ],
+  "metadata": {
+    "total_faqs": 30,
+    "last_updated": "2025-12-10",
+    "categories": [
+      "General Information",
+      "Academics",
+      "Admission",
+      "Fees and Payments",
+      "Student Life",
+      "Registration",
+      "Research and Innovation",
+      "International Students",
+      "Programs",
+      "Contact",
+      "Rankings",
+      "Security"
+    ],
+    "source": "Official FUTMINNA information and web sources",
+    "version": "1.0"
+  }
 }

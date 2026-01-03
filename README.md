@@ -123,4 +123,4 @@ Contributions are welcome! Feel free to submit issues and enhancement requests.
 
 - The chatbot has a 2-second delay before responding to simulate a more natural conversation
 - Currently designed as a prototype to demonstrate the UI/UX concept
-- Future versions will include integration with actual AI services
+- Future versions will include integration with actual AI services or some other means for better replies 
